@@ -1,0 +1,27 @@
+{
+  "name": "wfthkttn",
+  "owner": { "name": "wfthkttn" },
+  "description": "Claude Code mods: a sidebar for tools, usage limits, reviews by other models, and the session's conversation for other mods",
+  "plugins": [
+    {
+      "name": "cc-sidebar",
+      "source": { "source": "github", "repo": "wfthkttn/cc-sidebar" },
+      "description": "An always-on sidebar that other plugins put their tools on: tool icons with badges, switches, drawers"
+    },
+    {
+      "name": "cc-quota",
+      "source": { "source": "github", "repo": "wfthkttn/cc-quota" },
+      "description": "Usage limits of Claude, Codex and Antigravity, in the sidebar's corner"
+    },
+    {
+      "name": "cc-conversation",
+      "source": { "source": "github", "repo": "wfthkttn/cc-conversation" },
+      "description": "The session and its person as $.conversation, for mods that carry questions, approvals and messages elsewhere"
+    },
+    {
+      "name": "cc-crew",
+      "source": { "source": "github", "repo": "wfthkttn/cc-crew" },
+      "description": "Reviews by Codex, Antigravity and Claude reviewers under one tool, with enforced read limits"
+    }
+  ]
+}
