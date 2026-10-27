@@ -14,6 +14,11 @@
       "description": "Usage limits of Claude, Codex and Antigravity, in the sidebar's corner"
     },
     {
+      "name": "cc-cache",
+      "source": { "source": "github", "repo": "wfthkttn/cc-cache" },
+      "description": "Prompt cache countdown in the sidebar, a keep-alive for large idle sessions, and compaction from the sidebar or Telegram"
+    },
+    {
       "name": "cc-conversation",
       "source": { "source": "github", "repo": "wfthkttn/cc-conversation" },
       "description": "The session and its person as $.conversation, for mods that carry questions, approvals and messages elsewhere"
