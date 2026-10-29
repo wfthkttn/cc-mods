@@ -1,7 +1,7 @@
 {
   "name": "wfthkttn",
   "owner": { "name": "wfthkttn" },
-  "description": "Claude Code mods: a sidebar for tools, usage limits, reviews by other models, and the session's conversation for other mods",
+  "description": "Claude Code mods: a sidebar for tools, model providers and their limits, agent runs and reviews by other models, the prompt cache, and the session's conversation for other mods",
   "plugins": [
     {
       "name": "cc-sidebar",
@@ -9,9 +9,14 @@
       "description": "An always-on sidebar that other plugins put their tools on: tool icons with badges, switches, drawers"
     },
     {
-      "name": "cc-quota",
-      "source": { "source": "github", "repo": "wfthkttn/cc-quota" },
-      "description": "Usage limits of Claude, Codex and Antigravity, in the sidebar's corner"
+      "name": "cc-providers",
+      "source": { "source": "github", "repo": "wfthkttn/cc-providers" },
+      "description": "Model providers in one place for other mods: models, prices, quota, headless runs and per-session spending limits, and a launcher for sessions on other providers"
+    },
+    {
+      "name": "cc-agents",
+      "source": { "source": "github", "repo": "wfthkttn/cc-agents" },
+      "description": "Headless agent runs on any provider cc-providers knows, for other mods: started, continued, stopped and kept across reloads"
     },
     {
       "name": "cc-cache",
@@ -26,7 +31,7 @@
     {
       "name": "cc-crew",
       "source": { "source": "github", "repo": "wfthkttn/cc-crew" },
-      "description": "Reviews by Codex, Antigravity and Claude reviewers under one tool, with enforced read limits"
+      "description": "Reviews by other providers' models under one tool, with enforced read limits, and a sidebar tab for reviews, agents, spending limits and quota"
     }
   ]
 }

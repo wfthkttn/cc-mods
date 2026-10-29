@@ -7,10 +7,11 @@ Provided as is.
 ## Plugins
 
 - [cc-sidebar](https://github.com/wfthkttn/cc-sidebar): a sidebar other plugins fill with icons, badges, switches and drawers.
-- [cc-quota](https://github.com/wfthkttn/cc-quota): Claude, Codex and Antigravity usage limits in the sidebar.
+- [cc-providers](https://github.com/wfthkttn/cc-providers): model providers in one place for other mods: models, prices, quota, headless runs and per-session spending limits, and a launcher for sessions on other providers.
+- [cc-agents](https://github.com/wfthkttn/cc-agents): headless agent runs on any provider cc-providers knows, kept across reloads.
 - [cc-cache](https://github.com/wfthkttn/cc-cache): the prompt cache countdown in the sidebar, a keep-alive for large idle sessions, and compaction from the sidebar or Telegram.
 - [cc-conversation](https://github.com/wfthkttn/cc-conversation): the session's messages, questions and answers for other mods.
-- [cc-crew](https://github.com/wfthkttn/cc-crew): reviews by Codex, Antigravity and Claude, with restricted read paths.
+- [cc-crew](https://github.com/wfthkttn/cc-crew): reviews by other providers' models, with restricted read paths, and a sidebar tab for reviews, agents, spending limits and quota.
 
 ## Requirements
 
