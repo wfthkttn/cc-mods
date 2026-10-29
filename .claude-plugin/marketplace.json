@@ -14,6 +14,11 @@
       "description": "Model providers in one place for other mods: models, prices, quota, headless runs and per-session spending limits, and a launcher for sessions on other providers"
     },
     {
+      "name": "cc-bus",
+      "source": { "source": "github", "repo": "wfthkttn/cc-bus" },
+      "description": "Optional wiring between mods: a mod asks a topic, every loaded mod that knows it answers, and neither needs the other installed"
+    },
+    {
       "name": "cc-agents",
       "source": { "source": "github", "repo": "wfthkttn/cc-agents" },
       "description": "Headless agent runs on any provider cc-providers knows, for other mods: started, continued, stopped and kept across reloads"
