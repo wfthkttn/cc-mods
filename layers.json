@@ -1,0 +1,26 @@
+{
+  "cc-providers": {
+    "hooks": ["engine.create", "session.start", "turn.step"],
+    "calls": {
+      "$.providers": ["settled", "limitReached", "metered"],
+      "$.agents": [],
+      "$.agent": []
+    }
+  },
+  "cc-agents": {
+    "hooks": ["engine.create", "session.start", "prompt.submit", "turn.start", "turn.step", "turn.complete", "agent.spawn", "providers.settled", "providers.metered", "bus.ask"],
+    "calls": {
+      "$.providers": ["start", "followUp", "stop", "status", "activity", "modelKey", "poolOf", "pick", "addTokens", "refusal", "sessionProvider"],
+      "$.agents": ["ended", "changed"],
+      "$.agent": ["list"]
+    }
+  },
+  "cc-crew": {
+    "hooks": ["session.start", "agents.ended", "agents.changed", "providers.limitReached", "bus.tell", "ui.message", "ui.render", "tool.call"],
+    "calls": {
+      "$.providers": ["catalog", "list", "quota", "limits", "raise", "close", "switchLimits", "poolOf", "modelKey", "sessionProvider", "checkModel", "roots", "secretPaths"],
+      "$.agents": ["start", "placeable", "kinds", "profiles", "followUp", "stop", "health", "get", "list", "outcome", "subagents", "prompt", "isIdle", "hold", "release"],
+      "$.agent": []
+    }
+  }
+}
